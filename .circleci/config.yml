@@ -26,5 +26,7 @@ workflows:
     jobs:
       - say-hello
   example-workflow:
-      jobs:
-        - maven/test
+    jobs:
+      - maven/test:
+          app_src_directory: / 
+          command: test 
