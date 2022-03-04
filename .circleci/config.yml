@@ -28,5 +28,5 @@ workflows:
   example-workflow:
     jobs:
       - maven/test:
-          app_src_directory: / 
+          app_src_directory: /pom.xml 
           command: test 
